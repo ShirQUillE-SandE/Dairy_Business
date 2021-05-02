@@ -1,0 +1,47 @@
+body{
+  background-image: url("cow5.jpg");
+  background-position: center;
+}
+
+
+
+.hdr{
+
+text-align: center;
+font-size: 50px;
+text-transform: uppercase;
+
+/* background-color:thistle */
+
+}
+
+
+.txt{
+height: 800px;
+font-size: 30px;
+text-align: right;
+color: white;
+}
+
+.btn1{
+  margin: 0;
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  height: 20%;
+  transform: translate(-50%, -50%);
+  opacity: 50%;
+
+}
+
+.btn2{
+
+  margin: 0;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  height: 20%;
+  transform: translate(-50%, -50%);
+  opacity: 60%;
+
+}
