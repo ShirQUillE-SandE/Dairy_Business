@@ -34,4 +34,9 @@ let incomeOverTime = function income(selling_price, time){
         console.log("Your income for " + key + " is " + value * totalLitres * selling_price);
       }
 }
+
+
+
+
+
 incomeOverTime(selling_price, time);
