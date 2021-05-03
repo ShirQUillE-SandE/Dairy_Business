@@ -13,8 +13,7 @@ let totalProduction = function(){
         totalLitres = totalLitres + shedsProduction[i];
         console.log("Your production in Shed " +  shedsName[i] + " is " + shedsProduction[i] + " litres per day \n")
     }
-    document.write("\n");
-   document.write("The total production is " + totalLitres + " litres per day\n");
+   alert("The total production is " + totalLitres + " litres per day\n");
     return totalLitres;
 }
 totalProduction();
@@ -26,9 +25,9 @@ let incomeOverTime = function income(selling_price, time){
     let yearlyTotal = 1;
     weeklyTotal = week * selling_price * totalLitres;
     yearlyTotal = year * selling_price * totalLitres;
-    document.write("\n");
-    document.write("Your weekly income will be Ksh " + weeklyTotal);
-    document.write("Your yearly income will be Ksh " + yearlyTotal);
+    
+    alert("Your weekly income will be Ksh " + weeklyTotal);
+    alert("Your yearly income will be Ksh " + yearlyTotal);
     // Iterates over the months object and prints the total amount of money to be made
     for (const [key, value] of Object.entries(months)) {
         console.log("Your income for " + key + " is " + value * totalLitres * selling_price);
