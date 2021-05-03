@@ -26,8 +26,6 @@ display: block;
   
 }
 
-@keyframes text
-
 .btn1{
   margin: 0;
   position: absolute;
@@ -44,6 +42,18 @@ display: block;
   margin: 0;
   position: absolute;
   top: 60%;
+  left: 50%;
+  height: 20%;
+  transform: translate(-50%, -50%);
+  opacity: 60%;
+
+}
+
+.btn3{
+
+  margin: 0;
+  position:absolute;
+  top: 120%;
   left: 50%;
   height: 20%;
   transform: translate(-50%, -50%);
