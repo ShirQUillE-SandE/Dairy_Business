@@ -21,7 +21,12 @@ height: 800px;
 font-size: 30px;
 text-align: right;
 color: white;
+display: block;
+
+  
 }
+
+@keyframes text
 
 .btn1{
   margin: 0;
